@@ -25,7 +25,7 @@ services:
     build: .
     container_name: med-doc-rag-app
     ports:
-      - "7860:7860"
+      - "7878:7878"
     volumes:
       - ./uploads:/app/uploads
     env_file:

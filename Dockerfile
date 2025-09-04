@@ -21,12 +21,12 @@ COPY . .
 RUN mkdir -p /app/uploads
 
 # Expose port
-EXPOSE 7860
+EXPOSE 7878
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
 ENV GRADIO_SERVER_NAME=0.0.0.0
-ENV GRADIO_SERVER_PORT=7860
+ENV GRADIO_SERVER_PORT=7878
 
 # Run the application
 CMD ["python", "app.py"]
